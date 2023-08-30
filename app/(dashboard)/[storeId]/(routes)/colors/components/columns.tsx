@@ -25,7 +25,6 @@ export const columns: ColumnDef<ColorColumn>[] = [
         <div className="h-6 w-6 rounded-full border" style={{backgroundColor: row.original.value}} />
       </div>
     )
-
   },
   {
     accessorKey: "createdAt",

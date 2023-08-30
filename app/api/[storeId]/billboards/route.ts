@@ -15,7 +15,7 @@ export async function POST (req: Request, { params }: {params: {storeId: string}
         }
 
         if (!label) {
-            return new NextResponse("Name is required", {status: 400 })
+            return new NextResponse("Label is required", {status: 400 })
         }
 
         if (!imageUrl) {
