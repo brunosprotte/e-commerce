@@ -368,7 +368,6 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                     </Button>
                 </form>
             </Form>
-            {/* <ApiAlert title='API_URL' description={`${origin}/api/${params.storeId}`} variant='public' /> */}
         </>
     );
 }
